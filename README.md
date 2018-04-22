@@ -13,7 +13,7 @@ The generator returns x and y coordinates and classes. The generator accepts two
 The more density is, the more points are there within maximum point on x coordinate. As default, density = 1 and maximum point is 6.5.
 
 ```python
-generate_two_spirals_dataset();   // Generate two spirals dataset
-generate_three_spirals_dataset(); // Generate three spirals dataset
-generate_four_spirals_dataset();  // Generate four spirals dataset
+points, classes = generate_two_spirals_dataset();   // Generate two spirals dataset
+points, classes = generate_three_spirals_dataset(); // Generate three spirals dataset
+points, classes = generate_four_spirals_dataset();  // Generate four spirals dataset
 ```
